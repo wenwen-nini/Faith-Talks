@@ -44,25 +44,26 @@
 }
 
 @media (max-width: 1024px) {
+    body {
+        padding-top: 0;
+    }
+
     nav {
-        flex-wrap: wrap;
-        height: auto;
-        padding: 12px 16px;
-        width: 100%;
-        left: 0;
-        right: 0;
+        margin: 15px;
+        right: 15px;
     }
 
     nav ul {
         flex-wrap: wrap;
         justify-content: flex-end;
         margin: 10px 0 0 0;
-        gap: 18px;
+        gap: 14px;
+        margin-right: 0;
     }
 
     #brand {
-        margin: 0;
-        font-size: 1.25rem;
+        margin: 0 10px 0 0;
+        font-size: 1.3rem;
     }
 
     .home-content {
@@ -141,6 +142,7 @@
 
     .contact-form {
         width: 100%;
+        max-width: 400px;
     }
 
     .contact-form .btn {
@@ -149,23 +151,40 @@
 }
 
 @media (max-width: 480px) {
+    body {
+        padding-top: 0;
+    }
+
     nav {
-        padding: 10px 14px;
-        justify-content: space-between;
+        margin: 10px;
+        right: 10px;
+        padding: 8px 12px;
     }
 
     nav ul {
-        justify-content: flex-start;
-        gap: 12px;
-        margin: 10px 0 0 0;
+        justify-content: center;
+        gap: 8px;
+        margin: 8px auto 0 auto;
+        width: 100%;
+    }
+
+    nav ul li a {
+        font-size: 0.9rem;
+        margin: 0 4px;
     }
 
     #brand {
-        font-size: 1.1rem;
+        font-size: 1rem;
+        margin: 0 8px 0 0;
     }
 
     .home-title h1 {
-        font-size: 2.2rem;
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+    }
+
+    .home-content {
+        margin: 40px 15px;
     }
 
     .home-content p,
@@ -174,22 +193,146 @@
     .member-card p,
     .about-text p,
     .contact-title p {
-        font-size: 0.95rem;
+        font-size: 0.9rem;
+        line-height: 1.4;
+    }
+
+    .feature-topic {
+        margin: 30px 15px;
     }
 
     .feature-topic-content {
-        padding: 16px;
+        padding: 12px;
+        gap: 12px;
+    }
+
+    .feature-topic-content .content {
+        margin-right: 0;
+    }
+
+    .content h3 {
+        font-size: 1.2rem;
+        margin-left: 0;
+        margin-bottom: 8px;
+    }
+
+    .content p {
+        margin-left: 0;
+    }
+
+    .feature-topic-content img {
+        max-width: 100%;
+        height: auto;
+        margin: 0 !important;
     }
 
     .topic-title h2 {
-        font-size: 2.4rem;
+        font-size: 1.8rem;
+        margin: 40px 0px 0px 0;
+    }
+
+    .topic-card {
+        width: 100% !important;
+        padding: 12px 15px 15px 15px;
+    }
+
+    .topic-card h3 {
+        font-size: 1.2rem;
+        margin-top: 5px;
+    }
+
+    .topic-card .read-more-btn {
+        margin: 8px 10px;
+        padding: 8px 20px;
+        font-size: 0.9rem;
+    }
+
+    .team-title {
+        margin: 40px 0 20px 5%;
+    }
+
+    .team-title h2 {
+        font-size: 1.8rem;
+        margin: 10px 0;
+    }
+
+    .member-card {
+        width: 90% !important;
+        padding: 20px 15px;
+        margin: 0 auto;
+    }
+
+    .member-card img {
+        height: 18vh;
+    }
+
+    .member-card h3 {
+        font-size: 1.2rem;
+        margin: 12px 0 6px 0;
+    }
+
+    .about-host,
+    .about-content {
+        margin: 40px 5% 20px 5% !important;
+    }
+
+    .host-card {
+        width: 100% !important;
+        height: auto;
+        padding: 20px 15px !important;
+        margin: 30px 0;
+    }
+
+    .host-card img {
+        width: 70%;
+        height: auto;
     }
 
     .about-text h3 {
-        font-size: 2rem;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .about-text ul {
+        font-size: 0.9rem;
+        margin-left: 15px;
+    }
+
+    .contact-title {
+        margin: 40px 0 20px 5%;
+    }
+
+    .contact-title h2 {
+        font-size: 1.8rem;
+        margin: 10px 0;
+    }
+
+    .contact-content {
+        margin: 40px 5% 50px 5% !important;
+        padding: 15px 12px;
+        width: auto !important;
+    }
+
+    .contact-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .contact-form {
+        width: 90vw;
+        max-width: 360px;
+    }
+
+    .contact-form .btn {
+        width: 100%;
+        padding: 12px 20px;
     }
 
     .footer-title h3 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+        margin: 12px;
+    }
+
+    .footer p {
+        font-size: 0.8rem;
     }
 }

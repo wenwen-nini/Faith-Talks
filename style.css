@@ -47,12 +47,12 @@ nav {
     border-bottom: 5px solid #FFD84D;
     padding: 10px 20px;
     margin: 20px;
-    height: 50px;
+    height: auto;
     position: fixed;
     top: 0;
     left: 0;
-    right: 0;
-    width: calc(100% - 40px);
+    right: 20px;
+    width: auto;
     z-index: 1000;
 }
 
