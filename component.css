@@ -181,10 +181,12 @@
     .home-title h1 {
         font-size: 1.8rem;
         margin-bottom: 15px;
+        margin-top: 40px;
     }
 
     .home-content {
         margin: 40px 15px;
+        padding-top: 20px;
     }
 
     .home-content p,
@@ -223,7 +225,7 @@
     .feature-topic-content img {
         max-width: 100%;
         height: auto;
-        margin: 0 !important;
+        margin: 0;
     }
 
     .topic-title h2 {
@@ -232,7 +234,7 @@
     }
 
     .topic-card {
-        width: 100% !important;
+        width: 100%;
         padding: 12px 15px 15px 15px;
     }
 
@@ -257,7 +259,7 @@
     }
 
     .member-card {
-        width: 90% !important;
+        width: 90%;
         padding: 20px 15px;
         margin: 0 auto;
     }
@@ -273,19 +275,29 @@
 
     .about-host,
     .about-content {
-        margin: 40px 5% 20px 5% !important;
+        margin: 40px 5% 20px 5%;
     }
 
     .host-card {
-        width: 100% !important;
+        width: 100%;
         height: auto;
-        padding: 20px 15px !important;
-        margin: 30px 0;
+        padding: 20px 15px;
+        margin: 30px auto;
+        max-width: 280px;
     }
 
     .host-card img {
-        width: 70%;
+        width: 80%;
         height: auto;
+    }
+
+    .host-card h3 {
+        font-size: 1.1rem;
+        margin: 12px 0 6px 0;
+    }
+
+    .host-card p {
+        font-size: 0.9rem;
     }
 
     .about-text h3 {
@@ -308,9 +320,9 @@
     }
 
     .contact-content {
-        margin: 40px 5% 50px 5% !important;
+        margin: 40px 5% 50px 5%;
         padding: 15px 12px;
-        width: auto !important;
+        width: auto;
     }
 
     .contact-content h2 {
